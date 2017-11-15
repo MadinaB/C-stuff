@@ -53,7 +53,8 @@ class Box{
                      (h<myBox.h)&&((b==myBox.b)&&(l==myBox.l));
         }
         long long CalculateVolume(){
-            return l*b*h;
+            long long n=1;
+            return n*l*b*h;
         }
         
     
